@@ -25,28 +25,50 @@ public class Opertion {
 	            }
 	        switch (choice) {
             case 1:
+            	System.out.println("Enter the first number:");
+            	   double num1= scanner.nextDouble();
+            	   System.out.println("Enter the Second number:");
+            	   double num2 = scanner.nextDouble();
                 Addition add = new Addition();
-                add.add();
+                add.add(num1, num2);
                 break;
             case 2:
+            	System.out.println("Enter the first number:");
+            	   double a= scanner.nextDouble();
+            	   System.out.println("Enter the Second number:");
+            	   double b = scanner.nextDouble();
                 Subtraction subtraction = new Subtraction();
-                subtraction.subtract();
+                subtraction.subtract(a, b);
                 break;
             case 3:
+            	System.out.println("Enter the first number:");
+         	   double a1= scanner.nextDouble();
+         	   System.out.println("Enter the Second number:");
+         	   double b1 = scanner.nextDouble();
                 Multiplication multiplication = new Multiplication();
-                multiplication.multiply();
+                multiplication.multiply(a1, b1);;
                 break;
             case 4:
+            	System.out.println("Enter the numerator:");
+         	   double a2= scanner.nextDouble();
+         	  System.out.println("Enter the denominator:");
+         	   double b2 = scanner.nextDouble();
                 Division division = new Division();
-                division.divide();
+                division.divide(a2, b2);
                 break;
             case 5:
+            	System.out.println("Enter the number:");
+          	   double num= scanner.nextDouble();
                 SquareRoot square = new SquareRoot();
-                square.square();
+                square.square(num);;
                 break;
             case 6:
+            	 System.out.println("Enter the base:");
+            	   double base= scanner.nextDouble();
+            	   System.out.println("Enter the exponent:");
+            	   double exponent = scanner.nextDouble();
                 Exponentiation exp = new Exponentiation();
-                exp.exponent();
+                exp.exponent(base, exponent);
                 break;
             default:
                 System.out.println("Invalid choice! Please choose again.");

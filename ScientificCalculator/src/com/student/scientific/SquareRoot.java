@@ -1,15 +1,10 @@
 package com.student.scientific;
 
-import java.util.Scanner;
-
 public class SquareRoot {
-Scanner scanner = new Scanner(System.in);
 	
-	public void square() {
+	public void square(double num) {
 		
-   System.out.println("Enter the number:");
-   double num= scanner.nextDouble();
-   if(num>=0) {
+     if(num>=0) {
 	   
    System.out.println("Result:" +Math.sqrt(num));
    }
