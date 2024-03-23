@@ -1,5 +1,4 @@
 package com.student.scientific;
-import java.io.InputStream;
 import java.util.*;
 public class Opertion {
 	public static void main (String[] args) {
@@ -31,7 +30,7 @@ public class Opertion {
                 break;
             case 2:
                 Subtraction subtraction = new Subtraction();
-                subtraction.sub();
+                subtraction.subtract();
                 break;
             case 3:
                 Multiplication multiplication = new Multiplication();
@@ -39,7 +38,7 @@ public class Opertion {
                 break;
             case 4:
                 Division division = new Division();
-                division.div();
+                division.divide();
                 break;
             case 5:
                 SquareRoot square = new SquareRoot();

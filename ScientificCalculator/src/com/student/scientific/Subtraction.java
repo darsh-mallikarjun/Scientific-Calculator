@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Subtraction {
 		Scanner scanner = new Scanner(System.in);
 		
-		public void sub() {
+		public void subtract() {
 			
 	   System.out.println("Enter the first number:");
 	   double num1= scanner.nextDouble();
